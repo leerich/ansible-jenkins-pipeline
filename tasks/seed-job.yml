@@ -1,6 +1,7 @@
 ---
-- name: Create Jenking Pipeline Job
+- name: Create Jenkins Pipeline Job
   hosts: all
+  gather_facts: false
 
   tasks:
 
